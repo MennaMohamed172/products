@@ -1,0 +1,80 @@
+body {
+    height: 1800px;
+}
+
+.h {
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: cursive;
+}
+
+.line {
+    width: 175px;
+    height: 2px;
+    margin: auto;
+    background-color: rgb(145, 142, 142);
+}
+
+.div1 {
+    float: left;
+}
+
+.img {
+    transform: scale(1, 1);
+    /* transform: rotateY(180deg);
+    transition-delay: .7s; */
+}
+
+.img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.parent {
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.span {
+    display: block;
+    margin: auto;
+    color: gray;
+    font-size: 25px;
+    font-family: cursive;
+    margin: 6px;
+}
+
+.bordrer {
+    border: 2px solid gray;
+    padding: 25px;
+    margin-left: 12px;
+}
+
+#addToCart {
+    background-color: rgb(214, 218, 214);
+    width: 110px;
+    height: 60px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.container {
+    background-color: gainsboro;
+    margin-top: 1250px;
+    text-align: center;
+    /* height: 70px; */
+}
+
+.con {
+    height: 70px;
+}
+
+.cont {
+    margin-top: 20px;
+    /* height: 50px; */
+    background-color: rgb(178, 196, 231);
+}
